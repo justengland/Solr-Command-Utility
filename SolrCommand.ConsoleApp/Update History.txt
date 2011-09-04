@@ -1,0 +1,42 @@
+﻿
+Updates On 1/7/2011 - Version 1.2.1
+•	GetCoreStatus Command
+	o	You can now set CoreA and/or CoreB parameters and the output will show status information for both cores side by side for easy comparison.
+•	CreateIndex Command
+	o	The output now contains the core status summary content before and after the index (and swap) operations.  
+•	CreateIndexAndSwap Command
+	o	The output now contains the core status summary content before and after the index (and swap) operations.  
+•	SwapCores Command
+	o	Checks to see if the version of CoreB is greater than the version of CoreA prior to swaping.  If it is not, it increments the version of CoreB until it is greater than CoreA prior to swaping.  This will ensure we never swap into CoreA with a smaller version number.  This also occurs when calling the CreateIndexAndSwap command.
+•	Added new parameter named Notify
+	o	Set to true to send email containing output from command, or set to false to prevent the email from being sent.  This is optional and defaults to true.
+•	Added new command named WatchIndexCreateProgress
+	o	You can run this to watch the progress/status of a core that is currently being indexed.
+
+Updates on 3/2/2011 - Version 1.2.2
+•	Added command: BackupCore
+•	Added parameters: doBackup, doOptimize
+•	CreateDeltaIndex Command
+	o	updated to support doBackup and doOptimize parameters
+•	CreateFastDeltaIndex Command
+	o	updated to support doBackup and doOptimize parameters
+•	CreateIndex Command
+	o	updated to support doBackup parameter
+•	CreateIndexAndSwap Command
+	o	updated to support doBackup parameter
+•	Updated README.txt
+•	Refactor: Created SolrCommand.Core Class Library Project to allow reuse of the following classes in preparation to develop SolrCompare tool.  Moved these classes from the SolrCommand console project:
+	o	CoreStatus.cs
+	o	Notification.cs
+	o	ProcessState.cs
+	o	SolrCore.cs
+	o	SolrServer.cs
+•	Updated SolrCommand.Test Unit Tests
+
+Updates on 3/28/2011 - Version 1.2.3
+•	Refactored to rename SolrCommand to SolrCommand and reorganize project/solution structure.
+•	Prepare for SolrManagementStudio project.
+
+Updates on 4/13/2011 - Version 1.2.4
+•	Updated content of email notification to improve parameter summary and format as html with body in <pre> tag.
+•	Updated email notification subject content to include command name, serverUri, core name(s)

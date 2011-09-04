@@ -1,0 +1,7 @@
+C:\Projects\Git\SolrCommand\SolrCommand.Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Git\SolrCommand\SolrCommand.Test\bin\Debug\SolrSwap.Test.dll
+C:\Projects\Git\SolrCommand\SolrCommand.Test\bin\Debug\SolrSwap.Test.pdb
+C:\Projects\Git\SolrCommand\SolrCommand.Test\bin\Debug\SolrCommand.exe
+C:\Projects\Git\SolrCommand\SolrCommand.Test\bin\Debug\SolrCommand.pdb
+C:\Projects\Git\SolrCommand\SolrCommand.Test\obj\Debug\SolrSwap.Test.dll
+C:\Projects\Git\SolrCommand\SolrCommand.Test\obj\Debug\SolrSwap.Test.pdb

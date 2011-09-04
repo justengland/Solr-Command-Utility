@@ -1,0 +1,5 @@
+C:\Projects\Git\SolrCommand\SolrCommand.ConsoleApp\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Projects\Git\SolrCommand\SolrCommand.ConsoleApp\bin\Debug\SolrCommand.exe
+C:\Projects\Git\SolrCommand\SolrCommand.ConsoleApp\bin\Debug\SolrCommand.pdb
+C:\Projects\Git\SolrCommand\SolrCommand.ConsoleApp\obj\x86\Debug\SolrCommand.exe
+C:\Projects\Git\SolrCommand\SolrCommand.ConsoleApp\obj\x86\Debug\SolrCommand.pdb
